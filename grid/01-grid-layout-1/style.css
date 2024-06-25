@@ -2,14 +2,12 @@ body,
 html {
   height: 100%;
   margin: 0;
-  display: flex;
-  justify-content: center;
   }
 
 .container {
   display:grid;
-  grid-template-columns: 250px 750px;
-  grid-template-rows: 120px 120px 600px 120px;
+  grid-template-columns: 300px 900px;
+  grid-template-rows: 100px 100px 500px 100px;
   grid-template-areas:
   "header header"
   "sidebar nav"
